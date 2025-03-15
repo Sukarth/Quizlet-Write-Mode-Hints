@@ -83,7 +83,7 @@ javascript: (function () {
         insertHint('?');
     }
 
-    // New DOM observation logic
+    // DOM observation logic
     function createObserver() {
         const observer = new MutationObserver((mutations) => {
             // Check if question element exists
